@@ -1,26 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MP-HomePage</title>
     <!-- Linkage -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css"
+        integrity="sha512-5PV92qsds/16vyYIJo3T/As4m2d8b6oWYfoqV+vtizRB6KhF1F9kYzWzQmsO6T3z3QG2Xdhrx7FQ+5R1LiQdUA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
+
 <body>
 
     <!-- @@@@@@@@@@@ HEADER SECTION @@@@@@@@@@@ -->
     <header class="container-fluid">
-        <h1>Navigation Menu</h1>
+        <nav id="nav" class="flex font-poppins">
+            <div class="nav-brand">
+                <a href="#" class="test-dark text-lg  font-bold">Mentor Planet</a>
+            </div>
+            <div class="toggle-btn">
+                <button class="btn">
+                    <i class="bi bi-filter-right"></i>
+                </button>
+            </div>
+            <div class="collapse flex-grow">
+                <ul class="flex">
+                    <li>
+                        <a href="#" class="link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">Events</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">>>>></a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="flex-initial">
+                <ul class="flex">
+                    <button class="btn btn-shadow btn-primary bg-gradient">SIGN UP / <b>LOGIN</b></button>
+                </ul>
+            </div>
+
+        </nav>
 
     </header>
     <!-- @@@@@@@@@@@ /HEADER SECTION @@@@@@@@@@@ -->
-    
+
+    <!-- @@@@@@@@@@@  MAIN SECTION @@@@@@@@@@@ -->
+    <main id="site-main">
+
+        <!--  Banner Area -->
+        <section class="banner-area font-poppins">
+            <div class="container mx-auto banner-title">
+                <div class="title">
+                    <span class="d-inline btn btn-primary bg-gradient-peach text-red">Tagline Goes Here</span>
+                    <div class="py-2 branding text-lg text-dark sm-text-xl font-bold">
+                        <span class="d-block">-HERO SECTION-</span>
+                        <span class="d-block">Marketing and</span>
+                        <span class="d-block">Business Solutions</span>
+                    </div>
+
+                    <div class="py-5">
+                        <p class="text-grey">Lorem ipsum dolor, sit amet consectetur adipisicing elit. cupiditate quod
+                            consectetur</p>
+                        <p class="text-grey"> Error debitis nam dolorem pariatur molestiae illo, ex ab commodi.</p>
+                    </div>
+
+                    <div class="py-5">
+                        <a href="#" class="btn btn-primary bg-gradient text-white text-shadow">GET STARTED</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- /Banner Area -->
+
+
+        <!-- Agency Area -->
+        <section class="agency-area">
+            <div class="container mx-auto text-center font-poppins">
+                <span class="text-red">How we Operate</span>
+                <div class="area-title">
+                    <h1 class="text-lg text-dark">
+                        We design and build beautiful digital<br>products that make a difference
+                    </h1>
+                </div>
+
+                <!-- Grid -->
+                <div class="grid cols-1 lg-cols-3 py-10">
+
+                    <div class="grid-item px-5">
+                        <div class="text-center text-2xl text-red">
+                            <i class="bi bi-bricks"></i>
+                        </div>
+                        <div class="text-center">
+                            <h4 class="text-md py-2"> Identify</h4>
+                            <p class="text-grey">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem vitae
+                                eveniet laborum, est reprehenderit unde?</p>
+                        </div>
+                    </div>
+                    <div class="grid-item px-5">
+                        <div class="text-center text-2xl text-red">
+                            <i class="bi bi-megaphone"></i>
+                        </div>
+                        <div class="text-center">
+                            <h4 class="text-md py-2">Mentor</h4>
+                            <p class="text-grey">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem vitae
+                                eveniet laborum, est reprehenderit unde?</p>
+                        </div>
+                    </div>
+                    <div class="grid-item px-5">
+                        <div class="text-center text-2xl text-red">
+                            <i class="bi bi-mouse"></i>
+                        </div>
+                        <div class="text-center">
+                            <h4 class="text-md py-2">Connect</h4>
+                            <p class="text-grey">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem vitae
+                                eveniet laborum, est reprehenderit unde?</p>
+                        </div>
+                    </div>
+                    <div class="grid-item px-5">
+                        <div class="text-center text-2xl text-red">
+                            <i class="bi bi-people"></i>
+                        </div>
+                        <div class="text-center">
+                            <h4 class="text-md py-2">Grow</h4>
+                            <p class="text-grey">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem vitae
+                                eveniet laborum, est reprehenderit unde?</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
+        <!-- /Agency Area -->
+
+
+
+    </main>
+
+    <!-- @@@@@@@@@@@ /MAIN SECTION @@@@@@@@@@@ -->
+
 
 
     <!-- Scripts -->
     <script src="main.js"></script>
 </body>
+
 </html>

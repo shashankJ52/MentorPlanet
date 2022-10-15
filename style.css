@@ -279,6 +279,12 @@ ul{
     .container{
         max-width:768px ;
     }
+    .md-text-left{
+        text-align: left;
+    }
+    .md-mx-initial{
+        margin: initial;
+    }
     
 }
 
@@ -308,7 +314,9 @@ ul{
     .lg-cols-3{
         grid-template-columns: repeat(2,minmax(0,1fr));
     }
-
+    .lg-cols-2{
+        grid-template-columns: repeat(2,minmax(0,1fr));
+    }
     
 }
 
@@ -411,5 +419,84 @@ ul{
 #site-main .agency-area{
     padding: 5em 0;
 }
-/* ----------------- / Agency Area Style ----------------- */
+/* ----------------- About Us Area Style ----------------- */
+#site-main .life-area >.grid{
+    column-gap: 10em;
+}
+
+#site-main .life-area .grid-images{
+    display: grid;
+    grid-template-columns: repeat(16, minmax(10px,1fr));
+    grid-template-rows: repeat(8,minmax(100px, 1fr));
+}
+
+#site-main .life-area .grid-images .item-one{
+    background:var(--text-grey);
+    grid-column-start: 1;
+    grid-column-end: 8;
+    
+    grid-row-start: 2;
+    grid-row-end: 5;
+    background:var(--bg-image1) no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    filter: blur(1px);
+
+}
+
+#site-main .life-area .grid-images .item-two{
+    background:var(--text-grey);
+    grid-column-start: 9;
+    grid-column-end: 16;
+    
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background:var(--bg-image2) no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    filter: blur(1px);
+
+}
+
+#site-main .life-area .grid-images .item-three{
+    grid-area: 3/4/8/14;
+    background:var(--bg-image3) no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    z-index: 99;
+}
+
+/* ----------------- / About Us Area Style ----------------- */
+
+
+
+/* -----------------   Stats. Area Style ----------------- */
+#site-main .counting-area{
+    padding: 7em 0;
+}
+#site-main .counting-area .grid-one p{
+    width: 80%;
+}
+#site-main .counting-area .count-box{
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+}
+#site-main .counting-area .count-box .grid{
+    display: inline-grid;
+    grid-gap: 2px;
+    border-radius: 20px;
+    background-color: var(--text-light);
+    box-shadow: var(--box-shadow);
+}
+
+#site-main .counting-area .count-box .grid>div{
+   background-color: white;
+   padding: 2em 2.5em;
+   text-align: center;
+
+}
+
+/* ----------------- / Stats. Area Style ----------------- */
+
 

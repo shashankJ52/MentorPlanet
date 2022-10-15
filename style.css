@@ -312,7 +312,7 @@ ul{
         max-height: 100% !important;
     }
     .lg-cols-3{
-        grid-template-columns: repeat(2,minmax(0,1fr));
+        grid-template-columns: repeat(3,minmax(0,1fr));
     }
     .lg-cols-2{
         grid-template-columns: repeat(2,minmax(0,1fr));
@@ -419,6 +419,10 @@ ul{
 #site-main .agency-area{
     padding: 5em 0;
 }
+/* ----------------- / Agency Area Style ----------------- */
+
+
+
 /* ----------------- About Us Area Style ----------------- */
 #site-main .life-area >.grid{
     column-gap: 10em;
@@ -498,5 +502,14 @@ ul{
 }
 
 /* ----------------- / Stats. Area Style ----------------- */
+
+
+
+/* -----------------  Card Area Style ----------------- */
+#site-main .card-area .grid{
+    column-gap: 4em;
+    row-gap: 2em;
+}
+/* ----------------- /Card Area Style ----------------- */
 
 
